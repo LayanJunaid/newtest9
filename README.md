@@ -37,15 +37,14 @@ products → stores product data
 suppliers → linked to products via product_id foreign key
 
 📁 Structure
-bash
-Copy code
+```bash
 backend/
  ├── config/              # Database setup
  ├── routes/              # Product & report routes
  └── server.js            # Express app
 frontend/
 database.sqlite
-
+```
 
 👩‍💻 Author
 Layan Junaid
